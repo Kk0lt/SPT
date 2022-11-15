@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kkolt\\source\\repos\\SPT\\ProjetSPT\\ProjetSPT\\ProjetSPT.csproj": {}
+    "C:\\Users\\tsati\\OneDrive - Cégep de Trois-Rivières\\AUTUMN 2022\\programmation intergraphique\\ProjetFinal\\ProjetSPT\\ProjetSPT\\ProjetSPT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kkolt\\source\\repos\\SPT\\ProjetSPT\\ProjetSPT\\ProjetSPT.csproj": {
+    "C:\\Users\\tsati\\OneDrive - Cégep de Trois-Rivières\\AUTUMN 2022\\programmation intergraphique\\ProjetFinal\\ProjetSPT\\ProjetSPT\\ProjetSPT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kkolt\\source\\repos\\SPT\\ProjetSPT\\ProjetSPT\\ProjetSPT.csproj",
+        "projectUniqueName": "C:\\Users\\tsati\\OneDrive - Cégep de Trois-Rivières\\AUTUMN 2022\\programmation intergraphique\\ProjetFinal\\ProjetSPT\\ProjetSPT\\ProjetSPT.csproj",
         "projectName": "ProjetSPT",
-        "projectPath": "C:\\Users\\Kkolt\\source\\repos\\SPT\\ProjetSPT\\ProjetSPT\\ProjetSPT.csproj",
-        "packagesPath": "C:\\Users\\Kkolt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kkolt\\source\\repos\\SPT\\ProjetSPT\\ProjetSPT\\obj\\",
+        "projectPath": "C:\\Users\\tsati\\OneDrive - Cégep de Trois-Rivières\\AUTUMN 2022\\programmation intergraphique\\ProjetFinal\\ProjetSPT\\ProjetSPT\\ProjetSPT.csproj",
+        "packagesPath": "C:\\Users\\tsati\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tsati\\OneDrive - Cégep de Trois-Rivières\\AUTUMN 2022\\programmation intergraphique\\ProjetFinal\\ProjetSPT\\ProjetSPT\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kkolt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tsati\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
