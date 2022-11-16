@@ -1,0 +1,46 @@
+﻿<Window
+    x:Class="ProjetSPT.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjetSPT"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+    <NavigationView x:ConnectionId='2' PaneTitle="BestRide" PaneDisplayMode="Auto" IsSettingsVisible="False" 
+                    IsBackButtonVisible="Visible"
+                                                                      >
+
+        <NavigationView.Header>
+            <TextBlock x:ConnectionId='3' x:Name="tblHeader">Page d'accueil</TextBlock>
+        </NavigationView.Header>
+
+        <NavigationView.MenuItems>
+            <AutoSuggestBox Width="200"  PlaceholderText="Rechercher" QueryIcon="Find"></AutoSuggestBox>
+            <NavigationViewItemHeader Content="Menu"></NavigationViewItemHeader>
+
+            <NavigationViewItem Content="Accueil" Tag="Accueil" Icon="Home"/>
+            <NavigationViewItem Content="Créer un compte" Tag="Creation" Icon="AddFriend" />
+                     
+            <NavigationViewItemSeparator />
+
+            <NavigationViewItem Content="Admin" Tag="Admin" Icon="Admin"/>
+            <NavigationViewItem Content="Chauffeur" Tag="Chauffeur" Icon="ContactInfo"/>
+            
+            <NavigationViewItemSeparator />
+            <NavigationViewItem Content="Client" Tag="Client" Icon="Contact"/>
+
+
+        </NavigationView.MenuItems>
+
+        <NavigationView.PaneFooter>
+            <NavigationViewItem x:ConnectionId='4' Name="iDeconnexion" Content="Déconnexion" Icon="LeaveChat" />
+        </NavigationView.PaneFooter>
+
+        <Frame x:ConnectionId='5' x:Name="mainFrame"/>
+
+
+    </NavigationView>
+</Window>
+

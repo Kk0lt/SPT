@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="ProjetSPT.PageCreation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ProjetSPT"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel >
+
+        <TextBlock x:Name="titreCreation" Text="Création de compte"/>
+
+        <RadioButtons Header="Choissisez votre role"  x:Name="rbConnexion" SelectedIndex="0" SelectionChanged="rbConnexion_SelectionChanged">
+            <x:String>client</x:String>
+            <x:String>chauffeur</x:String>
+        </RadioButtons>
+
+        <TextBlock x:Name="tbl1" Text="selectionnez un role pour afficher le formulaire d'enregistrement"/>
+
+
+        <Button x:Name="btnSumbit" Content="Valider" Click="btnSumbit_Click"/>
+    </StackPanel>
+</Page>
